@@ -31,4 +31,6 @@ btn.addEventListener('click', function (e) {
     // Displaying in UI
     bookList.appendChild(newRow);
 
+  }
+
 });
