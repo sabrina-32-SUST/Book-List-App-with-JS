@@ -28,4 +28,7 @@ btn.addEventListener('click', function (e) {
     newYear.innerHTML = year.value;
     newRow.appendChild(newYear);
 
+    // Displaying in UI
+    bookList.appendChild(newRow);
+
 });
