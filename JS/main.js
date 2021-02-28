@@ -13,4 +13,9 @@ btn.addEventListener('click', function (e) {
   } else {
     const newRow = document.createElement('tr');
 
+    // Creating new title
+    const newTitle = document.createElement('th');
+    newTitle.innerHTML = title.value;
+    newRow.appendChild(newTitle);
+
 });
