@@ -7,4 +7,10 @@ const bookList = document.querySelector('#book-list');
 btn.addEventListener('click', function (e) {
     e.preventDefault();
 
+    // Basic Validation
+  if (title.value == '' && author.value == '' && year.value == '') {
+    alert('Please input your information.');
+  } else {
+    const newRow = document.createElement('tr');
+
 });
