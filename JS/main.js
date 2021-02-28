@@ -23,4 +23,9 @@ btn.addEventListener('click', function (e) {
     newAuthor.innerHTML = author.value;
     newRow.appendChild(newAuthor);
 
+    // Creating new Year
+    const newYear = document.createElement('th');
+    newYear.innerHTML = year.value;
+    newRow.appendChild(newYear);
+
 });
